@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      type="text/css" />
+   <link rel="stylesheet" type="text/css" href="./style.css" />
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+   <title>SPA semplice</title>
+</head>
+
+<body>
+    <div id="container" class="container">
+        <div id="pagina1" class="page">
+        <div class="row">
+            AJAX
+            Introduzione ad AJAX
+            AJAX è la tecnologia che utilizza Javascript, nel browser, per comunicare con servizi Internet, senza ricaricare la pagina. 
+            Grazie ad AJAX la pagina web dialoga col mondo, e si comporta quindi come una applicazione connessa ad Internet. 
+            Grazie ad AJAX le applicazioni, composte da una sola pagina HTML, i suoi CSS e soprattutto Javascript, vengono chiamate anche SPA (Single Page Applications), 
+            e costituiscono oggi la maggior parte delle applicazioni web moderne, dove ad una applicazione remota (server) che contiene dati ed informazioni, 
+            corrisponde una applicazione locale (client) che gira nel browser e li elabora per mostrargli all'utente.
+        </div>
+        <div class="row"><a href="#pagina2">Questo è un link a pagina 2</a></div>
+        <div class="row"><a href="#pagina3">Questo è un link a pagina 3</a></div>                  
+    </div>
+    <div id="pagina2" class="page">
+        <div class="row"><a href="#pagina1">Questo è un link a pagina 1</a></div>
+        <div class="row">
+            WebSocket
+            WebSocket è un protocollo di livello applicazione, ed è a tutti gli effetti una estensione di http, con cui condivide l'architettura client-server e la tecnologia basata su web server. 
+            Websocket aggiunge la possibilità, rispetto ad http, di creare una connessione permanente tra client-server e quindi superare il modello di comunicazione basato su scambi di request - response indipendenti.
+            
+            Come HTTP, WebSocket si basa su TCP, protocollo di comunicazione di livello trasporto che crea una comunicazione permanente tra due nodi, comunicazione che viene chiamata socket. 
+            WebSocket ne riprende il concetto ma lo applica a livello applicazione: non sono quindi due nodi della rete a stabilire una connessione, ma sono delle applicazioni, il client ed il server appunto.
+        </div>         
+        <div class="row"><a href="#pagina3">Questo è un link a pagina 3</a></div>                  
+    </div>
+    <div id="pagina3" class="page">         
+        <div class="row"><a href="#pagina1">Questo è un link a pagina 1</a></div>
+        <div class="row"><a href="#pagina2">Questo è un link a pagina 2</a></div>                  
+        <div class="row">
+            Sistemi operativi concorrenti
+            Il paradigma sequenziale
+            Secondo il teorema di Böhm-Jacopini per poter realizzare qualsiasi algoritmo è sufficiente avere a disposizione una macchina con un set di istruzioni che comprenda soltanto operazioni sequenziali, aritmetico-logiche e di iterazione. 
+        </div>
+    </div>
+   </div>
+   <script type="module" src="./index.js"></script>
+
+</body>
+
+</html>
